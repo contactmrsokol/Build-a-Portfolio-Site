@@ -1,0 +1,70 @@
+.header {
+  border-bottom: 4px solid #7d97ad;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo-image {
+  max-width: 12%;
+}
+
+.name-title {
+  float: right;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #2d3c49;
+  text-align: right;
+  vertical-align: top;
+  font-family: "Ariel Narrow";
+}
+
+.full-stack {
+  display: block;
+}
+
+.full-stack-image {
+  width: 100%;
+}
+
+.featured-work-text {
+  color: #7d97ad;
+  font-family: "Ariel Narrow";
+  font-size: 3em;
+}
+
+.featured-work {
+  text-align: center;
+  color: #2d3c49;
+  font-family: "Ariel Narrow";
+  font-size: 1.5em;
+}
+
+
+.project {
+  width: 32%;
+  display: inline-block;
+}
+
+.project h2 {
+  margin: 5px 0;
+}
+
+.links {
+  font-size: 0.5em;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .project {
+    width: 100%;
+    font-size: 1em;
+  }
+}
